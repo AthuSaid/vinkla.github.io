@@ -62,9 +62,9 @@ header, article, footer {
   animation-fill-mode: forwards;
 }
 
-header { animation-delay: .5s; }
-article { animation-delay: 1s; }
-footer { animation-delay: 1.5s; }
+header { animation-delay: 1s; }
+article { animation-delay: 1.5s; }
+footer { animation-delay: 2s; }
 
 @keyframes fade-in {
   0% { opacity: 0; }
