@@ -25,7 +25,7 @@ gulp.task('styles:production', () => {
   const processors = [
     autoprefixer(config.autoprefixer),
     mqpacker,
-    csswring
+    csswring(config.csswring)
   ];
 
   return gulp.src(config.src)

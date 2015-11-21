@@ -3,12 +3,10 @@ import ghPages from 'gulp-gh-pages';
 import open from 'open';
 import config from '../config/deploy';
 
-gulp.task('gh-pages', () => {
+gulp.task('deploy', ['build:production'], () => {
   return gulp.src(config.src)
-    .pipe(ghPages())
+    .pipe(ghPages(config.ghPages))
     .on('end', () => {
       open(config.url);
     });
 });
-
-gulp.task('deploy', ['build:production', 'gh-pages', 'clean']);

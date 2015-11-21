@@ -9,5 +9,8 @@ export default {
   },
   autoprefixer: {
     browsers: ['last 2 version']
+  },
+  csswring: {
+    removeAllComments: true
   }
 };
