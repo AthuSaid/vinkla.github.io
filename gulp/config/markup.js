@@ -1,10 +1,17 @@
 import config from './';
 
 export default {
-  src: config.source + '/*.html',
+  src: config.public + '/*.html',
   dest: config.public,
-  settings: {
+  htmlmin: {
     collapseWhitespace: true,
     minifyJS: true
+  },
+  critical: {
+    inline: true,
+    base: config.public,
+    src: 'index.html',
+    dest: config.public + '/index.html',
+    minify: true
   }
 };
