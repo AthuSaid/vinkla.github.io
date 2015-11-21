@@ -3,10 +3,11 @@ import htmlmin from 'gulp-htmlmin';
 import critical from 'critical';
 import config from '../config/markup';
 
-gulp.task('markup', () => {
+gulp.task('markup', callback => {
   critical.generate(config.critical).then(function (output) {
-    return gulp.src(config.src)
+    gulp.src(config.src)
       .pipe(htmlmin(config.htmlmin))
-      .pipe(gulp.dest(config.dest))
+      .pipe(gulp.dest(config.dest));
+    return callback();
   });
 });
