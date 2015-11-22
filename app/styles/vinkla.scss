@@ -54,19 +54,3 @@ a {
 
   &:hover { color: #ff4136; }
 }
-
-header, article, footer {
-  opacity: 0;
-  animation-duration: 1s;
-  animation-name: fade-in;
-  animation-fill-mode: forwards;
-}
-
-header { animation-delay: 1s; }
-article { animation-delay: 1.5s; }
-footer { animation-delay: 2s; }
-
-@keyframes fade-in {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
