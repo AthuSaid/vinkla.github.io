@@ -6,7 +6,7 @@
   "author": "Vincent Klaiber <hello@vinkla.com>",
   "scripts": {
     "deploy": "gulp deploy",
-    "start": "gulp build:development",
+    "dev": "gulp build:development",
     "prod": "gulp build:production"
   },
   "devDependencies": {
