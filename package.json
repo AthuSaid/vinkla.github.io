@@ -36,5 +36,8 @@
   },
   "dependencies": {
     "sanitize.css": "^3.0.0"
+  },
+  "babel": {
+    "presets": ["es2015"]
   }
 }
