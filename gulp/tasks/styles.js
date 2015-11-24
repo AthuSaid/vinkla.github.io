@@ -4,7 +4,6 @@ import sass from 'gulp-sass';
 import sourcemaps from 'gulp-sourcemaps';
 import postcss from 'gulp-postcss';
 import autoprefixer from 'autoprefixer';
-import mqpacker from 'css-mqpacker';
 import csswring from 'csswring';
 import handleErrors from '../lib/handleErrors';
 import config from '../config/styles';
@@ -24,7 +23,6 @@ gulp.task('styles:development', () => {
 gulp.task('styles:production', () => {
   const processors = [
     autoprefixer(config.autoprefixer),
-    mqpacker,
     csswring(config.csswring)
   ];
 
