@@ -9,26 +9,24 @@ import handleErrors from '../lib/handleErrors';
 import config from '../config/styles';
 
 gulp.task('styles:development', () => {
-  const processors = [autoprefixer(config.autoprefixer)];
-
   return gulp.src(config.src)
     .pipe(sass())
     .on('error', handleErrors)
-    .pipe(postcss(processors))
+    .pipe(postcss([
+      autoprefixer(config.autoprefixer)
+    ]))
     .pipe(gulp.dest(config.dest))
     .pipe(browserSync.reload({stream: true}));
 });
 
 
 gulp.task('styles:production', () => {
-  const processors = [
-    autoprefixer(config.autoprefixer),
-    csswring(config.csswring)
-  ];
-
   return gulp.src(config.src)
     .pipe(sass())
     .on('error', handleErrors)
-    .pipe(postcss(processors))
+    .pipe(postcss([
+      autoprefixer(config.autoprefixer),
+      csswring(config.csswring)
+    ]))
     .pipe(gulp.dest(config.dest));
 });
