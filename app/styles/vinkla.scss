@@ -55,3 +55,12 @@ a {
 
   &:hover { color: #ff4136; }
 }
+
+h1, h2, li, p, a, small {
+  transition: opacity 200ms ease;
+  opacity: 1;
+}
+
+.wf-loading {
+  h1, h2, li, p, a, small { opacity: 0; }
+}
