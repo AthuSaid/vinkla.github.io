@@ -1,7 +1,5 @@
-# Vincent Klaiber
-
-This is my personal website. Keeping it simple. https://vinkla.com
+This is my personal website. Keeping it simple.
 
 ## License
 
-This project is licensed under [The MIT License (MIT)](LICENSE).
+[MIT](LICENSE) © [Vincent Klaiber](https://vinkla.com).

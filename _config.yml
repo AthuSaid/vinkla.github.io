@@ -1,0 +1,7 @@
+title: Vincent Klaiber
+description: Hello there, my name is Vincent Klaiber and I work as a web developer in Gothenburg, Sweden.
+
+gems:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jemoji
