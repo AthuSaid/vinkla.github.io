@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,10 +49,10 @@
 <body>
   <main>
     <header>
-      <h1><a href="https://github.com/vinkla">{{ site.title }}</a></h1>
+      <h1><a href="{{ site.github.owner_url }}">{{ site.title }}</a></h1>
     </header>
     <article>
-      <p>Find me on <a href="https://github.com/vinkla" title="Vincent on GitHub">GitHub</a>, <a href="https://medium.com/@vinkla" title="Vincent on Medium">Medium</a> and <a href="https://twitter.com/vnkla" title="Vincent on Twitter">Twitter</a>.</p>
+      <p>Find me on <a href="{{ site.github.owner_url }}" title="Vincent on GitHub">GitHub</a>, <a href="https://medium.com/@vinkla" title="Vincent on Medium">Medium</a> and <a href="https://twitter.com/vnkla" title="Vincent on Twitter">Twitter</a>.</p>
     </article>
     <footer>
       <small><a href="https://github.com/vinkla/vinkla.github.io/blob/develop/LICENSE">&copy; {{ site.time | date: '%Y' }} MIT</a></small>
