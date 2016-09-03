@@ -16,16 +16,16 @@ $ composer outdated
 
 If you’re working with a big framework like Laravel or Symfony the list could become quite long. To make it more readable, the outdated command comes with two flags.
 
-<p>1. Implies -latest, but this lists <em>*only*</em> packages that have a newer version available.</p>
+1. Implies -latest, but this lists *\*only\** packages that have a newer version available.
 
-```sh
-$ composer outdated --outdated
-```
+   ```sh
+   $ composer outdated --outdated
+   ```
 
-<p>2. Restricts the list of packages to your direct dependencies.</p>
+2. Restricts the list of packages to your direct dependencies.
 
-```sh
-$ composer outdated --direct
-```
+   ```sh
+   $ composer outdated --direct
+   ```
 
 Read more about the command in the [original pull request](https://github.com/composer/composer/pull/5028) or in the [documentation](https://getcomposer.org/doc/03-cli.md#outdated). This feature was requested by many and I’m really happy to see this feature integrated within Composer.
