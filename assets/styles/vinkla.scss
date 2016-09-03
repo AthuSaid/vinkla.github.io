@@ -4,6 +4,7 @@
 body {
   font-family: Menlo, Monaco, Lucida Console, monospace, serif;
   font-size: 14px;
+  line-height: 24px;
 }
 
 header,
@@ -11,11 +12,16 @@ footer {
   margin: 40px 0;
 
   a { text-decoration: none; }
+
+  h1 {
+    font-size: 14px;
+    font-weight: 400;
+  }
 }
 
-header h1 {
-  font-size: 14px;
-  font-weight: 400;
+img {
+  width: 100%;
+  display: block;
 }
 
 a {
@@ -49,9 +55,8 @@ article {
   }
 }
 
-p {
+ul, ol, img, p, pre {
   margin-bottom: 25px;
-  line-height: 26px;
 }
 
 pre .hljs {
