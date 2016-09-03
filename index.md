@@ -1,5 +1,6 @@
 ---
 layout: default
+image: https://github.com/vinkla.png
 ---
 
 <header>
