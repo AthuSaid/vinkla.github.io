@@ -16,7 +16,7 @@ $ composer outdated
 
 If you’re working with a big framework like Laravel or Symfony the list could become quite long. To make it more readable, the outdated command comes with two flags.
 
-<p>1. Implies -latest, but this lists *only* packages that have a newer version available.</p>
+<p>1. Implies -latest, but this lists <em>*only*</em> packages that have a newer version available.</p>
 
 ```sh
 $ composer outdated --outdated
