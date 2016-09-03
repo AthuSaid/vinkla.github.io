@@ -3,7 +3,7 @@ title: Generate Fake Localized Data with Laravel
 layout: post
 ---
 
-Instead of populating the database by yourself, [Laravel](https://laravel.com/) integrates the [Faker package](https://github.com/fzaninotto/Faker) which is used to generate English data into your database. Though, what if you want to generate data in your own language?
+Instead of populating the database by yourself, [Laravel](https://laravel.com/) integrates the [Faker package](https://github.com/fzaninotto/Faker) which is used to generate fake English data into your database. What if you want to generate data in your own language?
 
 When testing, it is common to need to insert a few records into your database before executing your test. In version 5.1 [Laravel](https://laravel.com/) introduced [model factories](https://laravel.com/docs/5.3/database-testing#model-factories) to easily generate fake data into your applications.
 
