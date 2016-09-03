@@ -1,0 +1,64 @@
+---
+---
+
+body {
+  font-family: Menlo, Monaco, Lucida Console, monospace, serif;
+  font-size: 14px;
+}
+
+header,
+footer {
+  margin: 40px 0;
+
+  a { text-decoration: none; }
+}
+
+header h1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+a {
+  color: #50e3c2;
+
+  &:hover {
+    background: #50e3c2;
+    color: #fff;
+  }
+}
+
+main {
+  max-width: 700px;
+  margin: 40px;
+}
+
+article {
+  p code {
+    background: #f8f8f8;
+    padding: 3px 6px 4px;
+    font-size: 95%;
+    border-radius: 3px;
+  }
+
+  h1, h1 a {
+    font-size: 18px;
+    color: #252525;
+    text-decoration: none;
+
+    &:hover { background: #252525; }
+  }
+}
+
+p {
+  margin-bottom: 25px;
+  line-height: 26px;
+}
+
+pre .hljs {
+  padding: 20px;
+  font-size: 14px;
+  background: #f7f7f7;
+  border-radius: 3px;
+}
+
+time { color: #9b9b9b; }

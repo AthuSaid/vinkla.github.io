@@ -15,6 +15,9 @@ permalink: /:year/:title/
 
 exclude: [Gemfile, Gemfile.lock, LICENSE, README.md]
 
+sass:
+  style: compressed
+
 gems:
   - jekyll-mentions
   - jekyll-seo-tag
