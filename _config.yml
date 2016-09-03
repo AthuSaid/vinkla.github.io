@@ -1,11 +1,10 @@
 title: Vincent Klaiber
 description: I'm Vincent and I work as a web developer in Gothenburg, Sweden.
 url: https://vinkla.com
-image: https://github.com/vinkla.png
-author: Vincent Klaiber
-
-twitter:
-  username: vnkla
+author:
+  name: Vincent Klaiber
+  picture: https://github.com/vinkla.png
+  twitter: vnkla
 
 logo: https://github.com/vinkla.png
 

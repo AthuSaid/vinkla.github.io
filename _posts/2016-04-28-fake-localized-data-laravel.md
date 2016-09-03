@@ -1,5 +1,6 @@
 ---
 title: Generate Fake Localized Data with Laravel
+image: https://github.com/vinkla.png
 layout: post
 ---
 
