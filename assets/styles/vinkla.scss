@@ -60,6 +60,18 @@ ul, ol {
   list-style-position: inside;
 }
 
+ul li {
+  list-style: none;
+  padding-left: 20px;
+
+  &:before {
+    content: '-';
+    color: #ababab;
+    position: absolute;
+    margin-left: -20px;
+  }
+}
+
 ul, ol, img, p, pre {
   margin-bottom: 25px;
 }
