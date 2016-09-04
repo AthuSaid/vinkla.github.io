@@ -18,6 +18,7 @@ sass:
   style: compressed
 
 gems:
+  - jekyll-feed
   - jekyll-mentions
   - jekyll-redirect-from
   - jekyll-seo-tag
