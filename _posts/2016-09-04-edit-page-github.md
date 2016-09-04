@@ -6,7 +6,7 @@ image: https://octodex.github.com/images/jetpacktocat.png
 
 If you're running an open source project with [GitHub](https://github.com/) and use [GitHub Pages](https://pages.github.com/) for your projects site or documentation there is a neat trick you might not know of.
 
-You can make easily add a link to the current file on GitHub with Jekyll.
+You can easily add a link to the current file on GitHub with Jekyll.
 
 **&#123;&#123; site.github.repository_url &#125;&#125;/blob/master/&#123;&#123; page.path &#125;&#125;**
 
