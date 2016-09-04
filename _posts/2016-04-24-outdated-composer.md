@@ -2,6 +2,7 @@
 title: Find Outdated Packages With Composer
 image: https://cloud.githubusercontent.com/assets/499192/18227834/4314cc5e-7232-11e6-90f3-ff683569f432.jpeg
 layout: post
+color: ffa73e
 ---
 
 [Composer](https://getcomposer.org/) now features an “outdated” command to find newer versions of your dependencies. The command shows a list of installed packages including their latest version.

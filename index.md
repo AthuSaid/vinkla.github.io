@@ -1,6 +1,7 @@
 ---
 layout: default
 image: https://github.com/vinkla.png
+color: 82a6ee
 ---
 
 <header>
