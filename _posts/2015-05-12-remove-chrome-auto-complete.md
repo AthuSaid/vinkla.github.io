@@ -2,6 +2,7 @@
 layout: post
 title: Remove Auto-complete Entries in Google Chrome
 color: 2ea3ff
+image: https://github.com/vinkla.png
 ---
 
 Whenever I fail to write a URL correctly in Google Chrome the auto-complete will punish me for a long time. Today I've learned how to remove entries from the auto-completion list.

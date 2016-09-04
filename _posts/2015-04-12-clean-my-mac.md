@@ -2,6 +2,7 @@
 layout: post
 title: Clean My Mac and Free Up Storage
 color: ffaa36
+image: https://github.com/vinkla.png
 ---
 
 There's so much you could clean on your Mac to save space. After a couple months with your new Mac, OS X has been building up a big library of logs, backups and other cached data that necessarily isn't important to save.
