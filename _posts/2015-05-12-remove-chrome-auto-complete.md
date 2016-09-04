@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Remove Auto-complete Entries in Google Chrome
-color: 2ea3ff
 image: https://github.com/vinkla.png
 ---
 

@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Laravel Doesn’t Follow Semantic Versioning
 image: https://cloud.githubusercontent.com/assets/499192/18230184/eac26a7c-7293-11e6-9c36-4f95288dc4a0.jpeg
-layout: post
-color: 5bd151
 ---
 
 While browsing repositories on [GitHub](https://github.com/) I often come across [Laravel](https://laravel.com/) packages which could simple stop working with future versions of Laravel. This can easily be fixed by being more specific.

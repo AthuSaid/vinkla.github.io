@@ -47,9 +47,14 @@ img {
   display: block;
 }
 
-a:hover {
-  color: #fff;
-  text-decoration: none;
+a {
+  color: #a09df3;
+  
+  &:hover {
+    color: #fff;
+    background: #a09df3;
+    text-decoration: none;
+  }
 }
 
 main {

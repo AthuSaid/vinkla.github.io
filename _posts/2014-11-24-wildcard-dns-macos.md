@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Setup Wildcard DNS on macOS
-color: f4d03f
 image: https://cloud.githubusercontent.com/assets/499192/18232020/9a040b52-72c7-11e6-8728-94d2b65316d2.png
 ---
 

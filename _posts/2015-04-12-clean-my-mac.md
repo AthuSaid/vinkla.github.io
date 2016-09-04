@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Clean My Mac and Free Up Storage
-color: ffaa36
 image: https://github.com/vinkla.png
 ---
 

@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width">
+  <meta name="theme-color" content="#a09df3">
 
   {% seo %}
 
@@ -12,15 +13,6 @@
   <link rel="stylesheet" href="/assets/styles/vinkla.css">
 
   <link rel="shortcut icon" href="favicon.png">
-
-  {% if page.color %}
-  <meta name="theme-color" content="#{{ page.color }}">
-
-  <style>
-    a { color: #{{ page.color }}; }
-    a:hover { background: #{{ page.color }}; }
-  </style>
-  {% endif %}
 
   <script>
     !function(v,i,n,k,l,a){v.GoogleAnalyticsObject=n;v[n]||(v[n]=function(){

@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Generate Fake Localized Data with Laravel
 image: https://github.com/vinkla.png
-layout: post
-color: ff7471
 ---
 
 Instead of populating the database by yourself, [Laravel](https://laravel.com/) integrates the [Faker package](https://github.com/fzaninotto/Faker) which is used to generate fake English data into your database. What if you want to generate data in your own language?

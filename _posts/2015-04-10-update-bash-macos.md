@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Update Bash on macOS
-color: ff57ab
 image: https://cloud.githubusercontent.com/assets/499192/18232086/b84aa8ea-72c8-11e6-8a24-d4bde845bae1.png
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Upload Images to GitHub's CDN
-color: 4078c0
 image: https://cloud.githubusercontent.com/assets/499192/8718466/e58c679c-2ba4-11e5-8e3c-3f9955b810f7.jpg
 ---
 
