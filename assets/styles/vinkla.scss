@@ -39,6 +39,15 @@ article {
     border-radius: 3px;
   }
 
+  h2, h3 {
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+
+  h3 { border: none; }
+
   h1 a {
     font-size: 18px;
     color: #252525;
