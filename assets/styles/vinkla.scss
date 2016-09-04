@@ -65,8 +65,8 @@ ul li {
   }
 }
 
-ul, ol, img, p, pre {
-  margin-bottom: 25px;
+ul, ol, img, p, pre, .twitter-tweet {
+  margin-bottom: 25px !important;
 }
 
 pre .hljs {
