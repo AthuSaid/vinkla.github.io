@@ -65,15 +65,19 @@ article {
     border-radius: 3px;
   }
 
-  h2, h3 {
+  h2 {
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 20px;
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
-    margin-bottom: 20px;
   }
 
-  h3 { border: none; }
+  h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
 
   h1 a {
     font-size: 18px;
