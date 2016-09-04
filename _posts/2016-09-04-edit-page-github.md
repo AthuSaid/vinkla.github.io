@@ -16,4 +16,4 @@ Which will in this case output:
 
 [This demo link will take you to the correct markdown file on GitHub.]({{ site.github.repository_url }}/blob/master/{{ page.path }})
 
-You can also try clicking the [GitHub corner](http://tholman.com/github-corners/) badge in the upper right corner.
+You can also try clicking the [GitHub corner](http://tholman.com/github-corners/) in the upper right corner.
