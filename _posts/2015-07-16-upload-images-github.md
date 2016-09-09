@@ -14,13 +14,13 @@ Create a new issue by clicking the button **New Issue**. You'll now see both a t
 
 In our example below we're uploading an image of Marty McFly.
 
-```
+```text
 ![Uploading marty-mcfly.jpg...]()
 ```
 
 Once GitHub is done uploading the image they will automagically add the URL to the description field. Great Scott!
 
-```
+```text
 ![marty-mcfly](https://cloud.githubusercontent.com/assets/499192/8718466/e58c679c-2ba4-11e5-8e3c-3f9955b810f7.jpg)
 ```
 

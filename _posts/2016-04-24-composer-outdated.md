@@ -10,7 +10,7 @@ image: https://cloud.githubusercontent.com/assets/499192/18227834/4314cc5e-7232-
 
 To list outdated packages in your project, use the `outdated` command.
 
-```sh
+```bash
 $ composer outdated
 ```
 
@@ -18,13 +18,13 @@ If you’re working with a big framework like Laravel or Symfony the list could 
 
 1. Implies -latest, but this lists *\*only\** packages that have a newer version available.
 
-   ```sh
+   ```bash
    $ composer outdated --outdated
    ```
 
 2. Restricts the list of packages to your direct dependencies.
 
-   ```sh
+   ```bash
    $ composer outdated --direct
    ```
 
