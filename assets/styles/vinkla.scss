@@ -93,6 +93,8 @@ article {
 
     &:hover { background: #252525; }
   }
+
+  .highlight { margin: 0; }
 }
 
 ul, ol {
@@ -121,6 +123,20 @@ pre .hljs {
   font-size: 14px;
   background: #f7f7f7;
   border-radius: 3px;
+}
+
+.language-diff {
+  .hljs-string { color: #333333; }
+
+  .gd, .gd .hljs-string {
+    color: #bd2c00;
+    background-color: #ffecec;
+  }
+
+  .gi, .gi .hljs-string {
+    color: #55a532;
+    background-color: #eaffea;
+  }
 }
 
 time { color: #9b9b9b; }
