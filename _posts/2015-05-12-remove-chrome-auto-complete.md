@@ -10,7 +10,7 @@ Whenever I fail to write a URL correctly in Google Chrome the auto-complete will
 
 Just highlight the entry you wont to remove in the drop-down list (using the arrow keys, or your mouse cursor) and press <kbd>delete</kbd> on your keyboard.
 
-## Mac
+## macOS
 
 For macOS users this is a little more tricky. First start by typing the unwanted auto-completed URL until it shows itself.  
 
