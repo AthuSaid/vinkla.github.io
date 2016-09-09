@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitHub Diff Syntax Highlighting
-image: https://cloud.githubusercontent.com/assets/499192/18377943/3fa5683a-766a-11e6-978c-e2a6c3f8515a.png
+image: https://cloud.githubusercontent.com/assets/499192/18378535/de9771c4-766d-11e6-80ea-d7cff061a03c.png
 ---
 
 Did you know [GitHub](https://github.com/) support diff syntax highlighting? I didn't until just recently. When [creating and highlighting code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/) you can set the language to `diff` and highlight lines starting with `+` or `-` signs.
