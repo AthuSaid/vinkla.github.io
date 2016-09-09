@@ -128,7 +128,7 @@ pre .hljs {
 .language-text .hljs-string { color: #333333; }
 
 .language-diff {
-  .hljs-string { color: #333333; }
+  .hljs-string, .hljs-keyword { color: #333333; }
 
   .gd, .gd .hljs-string {
     color: #bd2c00;
