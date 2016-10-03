@@ -4,7 +4,7 @@ title: Upload Images to GitHub's CDN
 image: https://cloud.githubusercontent.com/assets/499192/8718466/e58c679c-2ba4-11e5-8e3c-3f9955b810f7.jpg
 ---
 
-Sometimes I see developers committing screenshots to their GitHub repositories. This takes up unnecessary space and makes the repositories messy. There is a better solution, using GitHub CDN.
+I often see developers committing screenshots to their GitHub repositories. This takes up unnecessary space and makes the repositories messy. There is a better solution, using GitHub CDN.
 
 Instead of committing the image resource to the repository we'll take advantage of GitHub's CDN that is accessible through GitHub issues.
 
