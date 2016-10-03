@@ -17,6 +17,9 @@ If you want to specify a custom locale, you can create a new [service provider](
  * This file is part of the faker article.
  *
  * (c) Vincent Klaiber <hello@vinkla.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
 namespace App\Providers;
