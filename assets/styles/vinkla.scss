@@ -42,7 +42,7 @@ blockquote {
   padding-left: 15px;
 }
 
-img {
+img:not(.emoji) {
   width: 100%;
   display: block;
 }
@@ -114,7 +114,7 @@ ul li {
   }
 }
 
-ul, ol, img, p, pre, .twitter-tweet {
+ul, ol, img:not(.emoji), p, pre, .twitter-tweet {
   margin-bottom: 25px !important;
 }
 
@@ -139,6 +139,12 @@ pre .hljs {
     color: #55a532;
     background-color: #eaffea;
   }
+}
+
+hr {
+  background: #eee;
+  border: none;
+  height: 1px;
 }
 
 time { color: #9b9b9b; }
