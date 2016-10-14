@@ -27,6 +27,8 @@ if ('speechSynthesis' in window) {
     }
 
     if (keys.length === index) {
+      index = 0;
+
       window.speechSynthesis.cancel();
 
       const lyrics = songs[Math.round(Math.random() * (songs.length - 1))];
