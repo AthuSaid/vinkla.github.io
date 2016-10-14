@@ -22,14 +22,14 @@ if ('speechSynthesis' in window) {
   let index = 0;
 
   window.addEventListener('keydown', function(event) {
+    window.speechSynthesis.cancel();
+
     if (keys[index] === event.key) {
       console.log(keys[index++]);
     }
 
     if (keys.length === index) {
       index = 0;
-
-      window.speechSynthesis.cancel();
 
       const lyrics = songs[Math.round(Math.random() * (songs.length - 1))];
 
