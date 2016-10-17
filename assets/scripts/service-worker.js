@@ -20,7 +20,11 @@ const urls = [
   '/assets/styles/vinkla.css',
 
   'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js',
-  '/assets/scripts/konami.js'
+  '/assets/scripts/konami.js',
+
+  {% for post in site.posts %}
+  '{{ post.url }}',
+  {% endfor %}
 ];
 
 self.addEventListener('install', event => {
