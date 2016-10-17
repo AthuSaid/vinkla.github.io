@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Update Bash on macOS
-image: https://cloud.githubusercontent.com/assets/499192/18232086/b84aa8ea-72c8-11e6-8a24-d4bde845bae1.png
+image: https://cloud.githubusercontent.com/assets/499192/19453581/2cc66c7c-94b6-11e6-9128-9c6d4eabf172.png
 ---
 
 macOS doesn't ship with the latest version Bash. The new version of Bash has some nice new features that are worth the effort of updating.
 
-![{{ page.title }}](https://cloud.githubusercontent.com/assets/499192/18232086/b84aa8ea-72c8-11e6-8a24-d4bde845bae1.png)
+![{{ page.title }}](https://cloud.githubusercontent.com/assets/499192/19453581/2cc66c7c-94b6-11e6-9128-9c6d4eabf172.png)
 
 ## Version
 
