@@ -1,0 +1,26 @@
+pre .hljs {
+  padding: 20px;
+  font-size: 14px;
+  background: #f7f7f7;
+  border-radius: 3px;
+}
+
+.highlight { margin: 0; }
+
+.language-text
+.hljs-string { color: #333333; }
+
+.language-diff {
+  .hljs-string,
+  .hljs-keyword { color: #333333; }
+
+  .gd, .gd .hljs-string {
+    color: #bd2c00;
+    background-color: #ffecec;
+  }
+
+  .gi, .gi .hljs-string {
+    color: #55a532;
+    background-color: #eaffea;
+  }
+}

@@ -1,0 +1,9 @@
+.post__title {
+  font-size: 18px;
+  color: #252525;
+  text-decoration: none;
+
+  @media (max-width: 768px) { font-size: 20px; }
+
+  &:hover { background: #252525; }
+}

@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<header>
+<header class="header">
   <a href="/" title="Go back to {{ site.url }}">vinkla.com</a>
 </header>
 
-<article>
-  <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+<article class="post">
+  <h1><a href="{{ page.url }}" class="post__title">{{ page.title }}</a></h1>
 
   <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
 

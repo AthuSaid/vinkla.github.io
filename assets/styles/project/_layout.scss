@@ -1,0 +1,15 @@
+img:not(.emoji) {
+  width: 100%;
+  display: block;
+}
+
+main {
+  max-width: 700px;
+  margin: 40px;
+
+  @media (max-width: 768px) { margin: 40px 20px; }
+}
+
+ul, ol, img:not(.emoji), p, pre, .twitter-tweet {
+  margin-bottom: 25px !important;
+}

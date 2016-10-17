@@ -1,0 +1,10 @@
+.konami {
+  position: absolute;
+  pointer-events: none;
+  right: 40px;
+  bottom: 40px;
+  opacity: 0;
+  transition: opacity 200ms ease;
+
+  &.active { opacity: 1; }
+}
