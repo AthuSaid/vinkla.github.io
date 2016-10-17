@@ -9,14 +9,14 @@ if ('speechSynthesis' in window) {
     'Walking like a man. Hitting like a hammer. She\'s a juvenile scam. Never was a quitter. Tasty like a raindrop. She\'s got the look.',
   ];
 
-  let keys = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+  const keys = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
 
   let index = 0;
 
   let konami = document.querySelector('.konami')
   let elements = konami.querySelectorAll('kbd')
 
-  window.addEventListener('keydown', function(event) {
+  window.addEventListener('keydown', event => {
     window.speechSynthesis.cancel();
 
     if (keys[index] === event.key) {
@@ -30,7 +30,7 @@ if ('speechSynthesis' in window) {
     if (keys.length === index) {
       index = 0;
 
-      setTimeout(function() {
+      setTimeout(() => {
         konami.classList.remove('active');
         elements.forEach(element => element.classList.remove('active'));
       }, 1000);

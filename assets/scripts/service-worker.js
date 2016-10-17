@@ -23,18 +23,22 @@ const urls = [
   '/assets/scripts/konami.js'
 ];
 
-self.addEventListener('install', function(event) {
-  event.waitUntil(caches.open(VERSION).then(function(cache) {
-    return cache.addAll(urls);
+self.addEventListener('install', event => {
+  event.waitUntil(caches.open(VERSION).then(cache => cache.addAll(urls)));
+});
+
+self.addEventListener('activate', event => {
+  event.waitUntil(caches.keys().then(keys => {
+    return Promise.all(keys.map(key => {
+      if (key !== VERSION) {
+        caches.delete(key);
+      }
+    }));
   }));
 });
 
-self.addEventListener('fetch', function(event) {
-  event.respondWith(caches.match(event.request).then(function(response) {
-    if (response) {
-      return response;
-    }
-
-    return fetch(event.request);
-  }));
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    caches.match(event.request).then(response => response || fetch(event.request))
+  );
 });
