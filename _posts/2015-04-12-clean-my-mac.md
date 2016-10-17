@@ -4,7 +4,7 @@ title: Clean My Mac and Free Up Storage
 image: https://github.com/vinkla.png
 ---
 
-There's so much you could clean on your Mac to save space. After a couple months with your new Mac, OS X has been building up a big library of logs, backups and other cached data that necessarily isn't important to save.
+There's so much you could clean on your Mac to save space. After a couple months with your new Mac, macOS has been building up a big library of logs, backups and other cached data that necessarily isn't important to save.
 
 Below are commands listed which with you can run in order to free up storage and speedup your computer. Following these easy steps gave me back 10 GB of storage. Lets fire up the Terminal application and lets go.
 
@@ -21,7 +21,7 @@ sudo rm -rfv ~/.Trash
 
 ## System Logs
 
-Apple keeps track of what you're doing by creating log files. These Apple System Logs files slows down your Mac, specially during startup. Remember OS X saves these while you're using your computer. Try to run this command as often as you're emptying the trash.
+Apple keeps track of what you're doing by creating log files. These Apple System Logs files slows down your Mac, specially during startup. Remember macOS saves these while you're using your computer. Try to run this command as often as you're emptying the trash.
 
 ```bash
 sudo rm -rfv /private/var/log/asl/*.asl
@@ -81,4 +81,4 @@ rm -rfv /Library/Caches/Homebrew/*
 
 I usually don't run all these commands separately. Instead, I've created a Bash script that cleans up everything at the same time. If you're interested, you can [check it out on GitHub](https://github.com/vinkla/dotfiles/blob/master/bin/cleanup).
 
-If you know of any other junk that is saved in the OS X system. Don't hesitate to add it to the send me a tweet](https://twitter.com/{{ site.author.twitter }}). If it is good, I'll add it to the article.
+If you know of any other junk that is saved in the macOS system. Don't hesitate to add it to the send me a tweet](https://twitter.com/{{ site.author.twitter }}). If it is good, I'll add it to the article.
