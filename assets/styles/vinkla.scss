@@ -167,6 +167,7 @@ time { color: #9b9b9b; }
 
 .konami {
   position: absolute;
+  pointer-events: none;
   right: 40px;
   bottom: 40px;
   opacity: 0;
