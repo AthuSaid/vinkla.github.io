@@ -33,7 +33,7 @@ if ('speechSynthesis' in window) {
       setTimeout(function() {
         konami.classList.remove('active');
         elements.forEach(element => element.classList.remove('active'));
-      }, 2000);
+      }, 1000);
 
       const lyrics = songs[Math.round(Math.random() * (songs.length - 1))];
 
