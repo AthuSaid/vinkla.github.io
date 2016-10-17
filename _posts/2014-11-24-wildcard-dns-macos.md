@@ -35,7 +35,8 @@ Copy the LaunchDaemons to have Dnsmasq launched on system startup.
 sudo cp -fv /usr/local/opt/dnsmasq/*.plist /Library/LaunchDaemons
 ```
 
-Then to load Dnsmasq now.
+Then load Dnsmasq.
+
 ```sh
 sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.dnsmasq.plist
 ```
