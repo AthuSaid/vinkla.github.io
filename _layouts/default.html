@@ -60,8 +60,22 @@
     <kbd>a</kbd>
   </div>
 
-  <script src="/assets/scripts/vinkla.js"></script>
+  <script src="/assets/scripts/konami.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
-  <script>(function() { hljs.initHighlightingOnLoad(); })();</script>
+  <script>
+    'use strict';
+
+    hljs.initHighlightingOnLoad();
+
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('/assets/scripts/service-worker.js')
+        .then(function(registration) {
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }).catch(function(err) {
+          console.log('ServiceWorker registration failed: ', err);
+        });
+    }
+  </script>
 </body>
 </html>
