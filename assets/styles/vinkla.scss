@@ -39,6 +39,11 @@ kbd {
   border-bottom-color: #bbb;
   border-radius: 3px;
   box-shadow: inset 0 -1px 0 #bbb;
+
+  &.active {
+    border-color: #a09df3;
+    color: #a09df3;
+  }
 }
 
 blockquote {
@@ -161,5 +166,11 @@ hr {
 time { color: #9b9b9b; }
 
 .konami {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
   opacity: 0;
+  transition: opacity 200ms ease;
+
+  &.active { opacity: 1; }
 }
