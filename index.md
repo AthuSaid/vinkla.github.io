@@ -6,7 +6,7 @@ color: 82a6ee
 
 <header class="header">
   <h1><a href="{{ site.github.owner_url }}" title="View Vincent's GitHub profile page">Vincent Klaiber</a></h1>
-</header>
+</header><!-- /header -->
 
 <article class="post">
   <p>Find me on <a href="{{ site.github.owner_url }}" title="Vincent on GitHub">GitHub</a> and <a href="https://twitter.com/vnkla" title="Vincent on Twitter">Twitter</a>.</p>
@@ -18,4 +18,17 @@ color: 82a6ee
       </li>
     {% endfor %}
   </ul>
-</article>
+</article><!-- /post -->
+
+<div class="konami">
+   <kbd>&#8593;</kbd>
+   <kbd>&#8593;</kbd>
+   <kbd>&#8595;</kbd>
+   <kbd>&#8595;</kbd>
+   <kbd>&#8592;</kbd>
+   <kbd>&#8594;</kbd>
+   <kbd>&#8592;</kbd>
+   <kbd>&#8594;</kbd>
+   <kbd>b</kbd>
+   <kbd>a</kbd>
+</div><!-- /konami -->

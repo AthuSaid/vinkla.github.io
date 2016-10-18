@@ -1,6 +1,8 @@
 'use strict';
 
-if ('speechSynthesis' in window) {
+const konami = document.querySelector('.konami');
+
+if (window.speechSynthesis && konami) {
   console.log('https://en.m.wikipedia.org/wiki/Konami_Code');
 
   const songs = [
@@ -13,8 +15,7 @@ if ('speechSynthesis' in window) {
 
   let index = 0;
 
-  let konami = document.querySelector('.konami')
-  let elements = konami.querySelectorAll('kbd')
+  let elements = konami.querySelectorAll('kbd');
 
   window.addEventListener('keydown', event => {
     window.speechSynthesis.cancel();
