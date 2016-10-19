@@ -2,22 +2,28 @@
 layout: default
 ---
 
-<header class="header">
-  <a href="/" title="Go back to {{ site.url }}">vinkla.com</a>
-</header><!-- /header -->
+<main>
+  <header class="header">
+    <a href="/" title="Go back to {{ site.url }}">vinkla.com</a>
+  </header>
 
-<article class="post">
-  <h1><a href="{{ page.url }}" class="post__title">{{ page.title }}</a></h1>
+  <article class="post">
+    <h1><a href="{{ page.url }}" class="post__title">{{ page.title }}</a></h1>
 
-  <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
 
-  {{ content }}
+    {{ content }}
 
-  <hr>
+    <hr>
 
-  <p>
-    <small>Like this article? Reach out to me and say <em>hi</em> on <a href="https://twitter.com/vnkla" title="Vincent on Twitter">Twitter</a>! :wave:</small>
-    <br>
-    <small>All articles written with &hearts; by <a href="/" title="Go back to {{ site.url }}">Vincent Klaiber</a></small>
-  </p>
-</article><!-- /post -->
+    <p>
+      <small>Like this article? Reach out to me and say <em>hi</em> on <a href="https://twitter.com/vnkla" title="Vincent on Twitter">Twitter</a>! :wave:</small>
+      <br>
+      <small>All articles written with &hearts; by <a href="/" title="Go back to {{ site.url }}">Vincent Klaiber</a></small>
+    </p>
+  </article><!-- /post -->
+  
+  <footer class="footer">
+    <p><a href="{{ site.github.repository_url }}/blob/master/LICENSE" title="The license file on GitHub">&copy; MIT {{ site.time | date: '%Y' }}</a></p>
+  </footer><!-- /footer -->
+</main>
