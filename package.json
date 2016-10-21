@@ -1,0 +1,22 @@
+{
+  "name": "vinkla",
+  "version": "1.0.0",
+  "description": "This is my personal website. Keeping it simple.",
+  "license": "MIT",
+  "repository": "vinkla/vinkla.github.io",
+  "engines": {
+    "node": "^6.0.0"
+  },
+  "author": {
+    "name": "Vincent Klaiber",
+    "email": "hello@vinkla.com",
+    "url": "vinkla.com"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-semistandard": "^7.0.0",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
