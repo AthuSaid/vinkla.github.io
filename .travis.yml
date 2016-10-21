@@ -2,7 +2,8 @@ language: ruby
 
 sudo: required
 
-before_script: npm install
+install:
+  - npm install
 
 script:
   - bundle exec jekyll build

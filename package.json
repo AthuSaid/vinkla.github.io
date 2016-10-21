@@ -8,7 +8,7 @@
     "node": "^6.0.0"
   },
   "scripts": {
-    "test": "semistandard --verbose | snazzy"
+    "test": "semistandard ./assets/scripts/*.js"
   },
   "author": {
     "name": "Vincent Klaiber",
@@ -21,7 +21,6 @@
     "eslint-config-standard": "^6.2.0",
     "eslint-plugin-promise": "^3.3.0",
     "eslint-plugin-standard": "^2.0.1",
-    "semistandard": "^9.1.0",
-    "snazzy": "^5.0.0"
+    "semistandard": "^9.1.0"
   }
 }
