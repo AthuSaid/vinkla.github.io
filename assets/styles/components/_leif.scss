@@ -3,20 +3,20 @@
   flex-wrap: wrap;
   height: 100%;
   width: 100%;
+}
 
-  iframe {
-    flex-basis: calc(100% / 3);
-    flex-grow: 1;
-    pointer-events: none;
-  }
+.leif__video {
+  flex-basis: calc(100% / 3);
+  flex-grow: 1;
+  pointer-events: none;
+}
 
-  footer {
-    bottom: 20px;
-    color: #fff;
-    position: fixed;
-    right: 30px;
-    text-shadow: 0 0 5px rgba(0,0,0,.5);
-  }
+.leif__footer {
+  bottom: 20px;
+  color: #fff;
+  position: fixed;
+  right: 30px;
+  text-shadow: 0 0 5px rgba(0,0,0,.5);
 
   span { color: #f44336; }
 }

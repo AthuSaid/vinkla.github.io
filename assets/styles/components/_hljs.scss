@@ -1,8 +1,8 @@
 pre .hljs {
-  padding: 20px;
-  font-size: 14px;
   background: #f7f7f7;
   border-radius: 3px;
+  font-size: 14px;
+  padding: 20px;
 }
 
 .highlight { margin: 0; }
@@ -15,12 +15,12 @@ pre .hljs {
   .hljs-keyword { color: #333333; }
 
   .gd, .gd .hljs-string {
-    color: #bd2c00;
     background-color: #ffecec;
+    color: #bd2c00;
   }
 
   .gi, .gi .hljs-string {
-    color: #55a532;
     background-color: #eaffea;
+    color: #55a532;
   }
 }

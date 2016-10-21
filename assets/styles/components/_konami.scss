@@ -1,9 +1,9 @@
 .konami {
-  position: absolute;
-  pointer-events: none;
-  right: 40px;
   bottom: 40px;
   opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 40px;
   transition: opacity 200ms ease;
 
   &.active { opacity: 1; }
