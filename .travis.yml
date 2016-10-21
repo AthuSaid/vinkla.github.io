@@ -3,5 +3,5 @@ language: ruby
 sudo: required
 
 script:
-  bundle exec jekyll build
-  npm test
+  - bundle exec jekyll build
+  - npm test
