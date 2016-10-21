@@ -1,5 +1,5 @@
----
----
+/* eslint-disable no-undef */
+
 'use strict';
 
 const VERSION = 'cache-v{{site.time | replace:" ","" | replace:":","" | replace:"-",""}}';
@@ -20,11 +20,7 @@ const urls = [
   '/assets/styles/vinkla.css',
 
   'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js',
-  '/assets/scripts/konami.js',
-
-  {% for post in site.posts %}
-  '{{ post.url }}',
-  {% endfor %}
+  '/assets/scripts/konami.js'
 ];
 
 self.addEventListener('install', event => {

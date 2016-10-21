@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+
 'use strict';
 
 const konami = document.querySelector('.konami');
@@ -8,7 +10,7 @@ if (window.speechSynthesis && konami) {
   const songs = [
     'The power of love, is a curious thing. Make a one man weep, make another man sing. Change a hawk to a little white dove. More than a feeling that\'s the power of love.',
     'Never gonna give you up, never gonna let you down. Never gonna run around and desert you. Never gonna make you cry, never gonna say goodbye. Never gonna tell a lie and hurt you.',
-    'Walking like a man. Hitting like a hammer. She\'s a juvenile scam. Never was a quitter. Tasty like a raindrop. She\'s got the look.',
+    'Walking like a man. Hitting like a hammer. She\'s a juvenile scam. Never was a quitter. Tasty like a raindrop. She\'s got the look.'
   ];
 
   const keys = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];

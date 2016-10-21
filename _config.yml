@@ -15,7 +15,7 @@ google_site_verification: k1b2WlZeQuK2T7X1vY_9IdacPqNuT56rQCJbNDbg0dI
 
 permalink: /:year/:title/
 
-exclude: [Gemfile, Gemfile.lock, LICENSE, package.json, README.md]
+exclude: [node_modules, Gemfile, Gemfile.lock, LICENSE, package.json, README.md, yarn.lock]
 
 sass:
   style: compressed
