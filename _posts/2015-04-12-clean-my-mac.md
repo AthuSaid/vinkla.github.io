@@ -81,4 +81,4 @@ rm -rfv /Library/Caches/Homebrew/*
 
 I usually don't run all these commands separately. Instead, I've created a Bash script that cleans up everything at the same time. If you're interested, you can [check it out on GitHub](https://github.com/vinkla/dotfiles/blob/master/bin/cleanup).
 
-If you know of any other junk that is saved in the macOS system. Don't hesitate to add it to the send me a tweet](https://twitter.com/{{ site.author.twitter }}). If it is good, I'll add it to the article.
+If you know of any other junk that is saved in the macOS system. Don't hesitate to add it to the [send me a tweet](https://twitter.com/{{ site.author.twitter }}). If it is good, I'll add it to the article.
