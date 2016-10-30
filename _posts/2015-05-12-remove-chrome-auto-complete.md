@@ -8,7 +8,7 @@ Whenever I fail to write a URL correctly in Google Chrome the auto-complete will
 
 ## Linux & Windows
 
-Just highlight the entry you wont to remove in the drop-down list (using the arrow keys, or your mouse cursor) and press <kbd>delete</kbd> on your keyboard.
+Just highlight the entry you want to remove in the drop-down list (using the arrow keys, or your mouse cursor) and press <kbd>delete</kbd> on your keyboard.
 
 ## macOS
 
