@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/vinkla
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://vinkla.com
+  * I am vinkla (https://keybase.io/vinkla) on keybase.
+  * I have a public key with fingerprint 8493 50AD 2D12 D7C8 B9B2  057F 66C8 C908 EAE0 57A4
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01204306e0679ae70c076f90babe2287c04b4e37f36db7d8ed4e1176c0fd32bcd7070a",
+            "fingerprint": "849350ad2d12d7c8b9b2057f66c8c908eae057a4",
+            "host": "keybase.io",
+            "key_id": "66c8c908eae057a4",
+            "kid": "0101514bb48dd269f6a8898ef5e24cc6681a8f59cf18caf8977e551d997108cf98c40a",
+            "uid": "cd6d59a9f213a2c05ce9742b90556c19",
+            "username": "vinkla"
+        },
+        "service": {
+            "hostname": "vinkla.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1478160438,
+    "expire_in": 157680000,
+    "prev": "a253cc472bb903dff0101a3981136f924d5846fdeca789be9d9a808251d66caf",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMNsAnicbVJ9TJVVHL4QCN2rxSQxILnsBYsU6P1+z7niatOIXEa6SDAM3ve854W3
+C/de7r18qplfGA4VWBKbma5RKPKxGeaYSAGGUkzYhBUOAvlQQwQC2cigel+Wf7R1
+/jn7/c7zPOc5z/ldW/GUweih3OjwHR/aUenxU8un2YbEoGl+NyHZ5XzCspuw4qUN
+Z8jY5U6xqjJhIUiKJlmG5DHJC1DEAolIgVcgKYkSpmkgIJKVWMwICsPLkiADLLOY
+ogQekYrM0BKSBVIgRSKSUFRbGnY6nKrNrckCFjIcKcq0TNGygIAEJZrkBIXnEUCQ
+BFjEWimyGjHd7tIZmjlJdOFo1a71tCJlyd7/4J/4JimOYiWJBbJM81DhRQAgwAqH
+aRYhngeUCBQOIoUCSFQAFATMcZQMoUCRACkQIHbJd/aSHJJ5mYMiVGiKEWlEcghD
+gaUlSHIcjyioA13YaRMzsYbOUW3WDJHYG0lovRwVYT1W/R3/OY9G9kyN53Da3XZk
+z9D66W63w2XRee58hw7MxVLKvxIpkmqTtQw1Rg52ulS7jbBQGhK5VV2TYgVA8dpX
+gUgC5zlUJ05RdQQn8IDUln4PztEkRZpjEGIFWtLMM7Ki6EmJDAQUxWgfS7MyB1he
+kTESBQAlDGUoAhLQWjZa2KJC6I/Kstk1bUbzKaZpmi41zSa6s52Y2Nvakuxl8DAa
+lnl76sNlMD7t92TkzKf8DIUhqeMHGw6MfLf4QcLhqMZVI1EVPtXzD3reTPMfX07t
+sa74+KN9r3sfayWG4woci0XCtJRdXvRlw/3PZ4PyQy60RVbmnX4UVh70yoPhhOvx
+nhWvNdcW1/s3NawP9v7quvnkrlEfE+go9Sekvo73PVelH4paA6qMZ59fE/HZnWtJ
+NY8/nArAN80r75VVB4xu3zoZ1v3FfNWdgv7pLW8MbCq29vi+3Bx5qnem+puCslKh
+KrBoZ2Z1+7qhZ0xH+r1/3V+RNTkRoTwyBYejm2ns13j5bWg+gJPCsZBf/lf7ult1
+Ixc7C8fMZZ3xnXEr94lm43lzzFiLWvDj9yW39189/oMvnrScK36u91aslNe1c76R
+oEK33DiY6bVxFhw58eLgmdjVl9afP9r+ztnt8Sdh4f1ljf69F+Yfh20qWmhnjzb/
+0nfmYXbf0GhpW1bi3R3ioW7D6Hv9wWMDdc2p8aaxpLh3u+G5xF0dl8NrNwz3Ljba
+5kK3GQM3IqZg4fCcf8/PuQkNl/pr777as20W/lna/HDGFJCUO+dY/dsfQzkv9Qxc
+jdnjdTx5bU3UZMvo1v4YR9i3RdSJuXtXzPDZT/w2W373qbuSGVIfWmlqWpg6Lbzt
+Y51qP1YyCFNDZmbsxuSJpt6L0X1VXSWxXZ6tg+15gfVVG2oqlO7QyxETIMLk/XeW
+8wWPt2imYW1b8j8DocRP
+=U5/4
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vinkla
+
+==================================================================
