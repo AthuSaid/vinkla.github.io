@@ -6,7 +6,7 @@ image: https://cloud.githubusercontent.com/assets/499192/19453581/2cc66c7c-94b6-
 
 macOS doesn't ship with the latest version Bash. The new version of Bash has some nice new features that are worth the effort of updating.
 
-![{{ page.title }}](https://cloud.githubusercontent.com/assets/499192/19453581/2cc66c7c-94b6-11e6-9128-9c6d4eabf172.png)
+[![{{ page.title }}](https://cloud.githubusercontent.com/assets/499192/19453581/2cc66c7c-94b6-11e6-9128-9c6d4eabf172.png)](https://cloud.githubusercontent.com/assets/499192/19453581/2cc66c7c-94b6-11e6-9128-9c6d4eabf172.png)
 
 ## Version
 

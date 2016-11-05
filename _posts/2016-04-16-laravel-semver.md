@@ -7,7 +7,7 @@ image: https://cloud.githubusercontent.com/assets/499192/18230184/eac26a7c-7293-
 While browsing repositories on [GitHub](https://github.com/) I often come across [Laravel](https://laravel.com/) packages which could simple stop working with future versions of Laravel. This can easily be fixed by being more specific.
 
 
-![{{ page.title }}](https://cloud.githubusercontent.com/assets/499192/18230184/eac26a7c-7293-11e6-9c36-4f95288dc4a0.jpeg)
+[![{{ page.title }}](https://cloud.githubusercontent.com/assets/499192/18230184/eac26a7c-7293-11e6-9c36-4f95288dc4a0.jpeg)](https://cloud.githubusercontent.com/assets/499192/18230184/eac26a7c-7293-11e6-9c36-4f95288dc4a0.jpeg)
 
 Laravel doesn’t follow [Semantic Versioning](http://semver.org/). Instead Laravel keeps the first number as a name, the second as major release and the third can be both feature and bug-fix. Laravel follows [Romantic Versioning](http://blog.legacyteam.info/2015/12/romver-romantic-versioning/).
 

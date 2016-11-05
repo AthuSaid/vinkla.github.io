@@ -6,7 +6,7 @@ image: https://cloud.githubusercontent.com/assets/499192/18227834/4314cc5e-7232-
 
 [Composer](https://getcomposer.org/) now features an “outdated” command to find newer versions of your dependencies. The command shows a list of installed packages including their latest version.
 
-![outdated](https://cloud.githubusercontent.com/assets/499192/18227834/4314cc5e-7232-11e6-90f3-ff683569f432.jpeg)
+[![{{ page.title }}](https://cloud.githubusercontent.com/assets/499192/18227834/4314cc5e-7232-11e6-90f3-ff683569f432.jpeg)](https://cloud.githubusercontent.com/assets/499192/18227834/4314cc5e-7232-11e6-90f3-ff683569f432.jpeg)
 
 To list outdated packages in your project, use the `outdated` command.
 
