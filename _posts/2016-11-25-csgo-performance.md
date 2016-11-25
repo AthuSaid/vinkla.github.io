@@ -10,13 +10,14 @@ First, let me show you my current macOS setup. I'm using a Macbook Pro from 2015
 
 [![macOS about box](https://cloud.githubusercontent.com/assets/499192/20625733/7c5e4020-b315-11e6-8fb8-b4f126d5795c.png)](https://cloud.githubusercontent.com/assets/499192/20625733/7c5e4020-b315-11e6-8fb8-b4f126d5795c.png)
 
-After some research I found this line of launch options. These options will boost the performance while you play the game. 
-
-> Launch options are commands, that let you tell the game to perform an action when launching it or that let you force a specific setting. For example, you can specify a window height and a width you want the game to start with. Every new launch option starts with a dash, but you can also put console commands in the launch options. These need a plus in front of them (e.g. +exec randomconfigfile) - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=379782151)
+After some research I found the launch options below. These options will boost the performance while you play the game. 
 
 ```
 -high -tickrate 128 -novid -threads (Cores) -nod3d9ex - nojoy - refresh (Hz) +cl_forcepreload 1 -console -lv
 ```
+
+> Launch options are commands, that let you tell the game to perform an action when launching it or that let you force a specific setting. For example, you can specify a window height and a width you want the game to start with. Every new launch option starts with a dash, but you can also put console commands in the launch options. These need a plus in front of them (e.g. +exec randomconfigfile) - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=379782151)
+
 
 You can find the launch options if you right-click on the game in the Steam sidebar. Then click on *Properties*. Now, click on the big button which is called *Set Launch Options*. Copy and paste the options from the snippet above.
 
