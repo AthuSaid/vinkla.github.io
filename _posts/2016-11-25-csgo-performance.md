@@ -6,7 +6,7 @@ image: https://cloud.githubusercontent.com/assets/499192/20625785/a4225b78-b315-
 
 Earlier this year I stopped playing Counter-Strike: Global Offensive. The [frame rate](https://en.m.wikipedia.org/wiki/Frame_rate) was to slow on my Macbook Pro. It was no fun. Today I found a solution on how to boost the performance. In this article I'll describe how I managed to get my frame rate up to 200.
 
-First, let me show you my current macOS setup. I'm using a Macbook Pro from 2015 running [macOS Sierra](https://www.apple.com/macos/sierra). I've 16 GB of memory and I'm running the Intel Iris Pro 1536 MB graphics card.
+First, let me show you my current macOS setup. I'm using a Macbook Pro from 2015 with [macOS Sierra](https://www.apple.com/macos/sierra). I'm running the Intel Iris Pro 1536 MB graphics card and 16 GB of memory.
 
 [![macOS about box](https://cloud.githubusercontent.com/assets/499192/20625733/7c5e4020-b315-11e6-8fb8-b4f126d5795c.png)](https://cloud.githubusercontent.com/assets/499192/20625733/7c5e4020-b315-11e6-8fb8-b4f126d5795c.png)
 
