@@ -30,4 +30,4 @@ As you can see in the image below, in the lower right corner. I managed to up my
 
 [![CS:GO fps demo gameplay](https://cloud.githubusercontent.com/assets/499192/20625785/a4225b78-b315-11e6-9ce2-cf16ebb426e4.png)](https://cloud.githubusercontent.com/assets/499192/20625785/a4225b78-b315-11e6-9ce2-cf16ebb426e4.png)
 
-If you know of any additional launch options which would boost the performance on macOS even more, [please let me know on Twitter!](https://twitter.com/vnkla)
+If you know of any additional launch options which could boost the performance on macOS even more, [please let me know on Twitter!](https://twitter.com/vnkla)
