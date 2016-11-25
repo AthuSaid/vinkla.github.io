@@ -4,7 +4,7 @@ title: CS:GO Performance Boost
 image: https://cloud.githubusercontent.com/assets/499192/20625785/a4225b78-b315-11e6-9ce2-cf16ebb426e4.png
 ---
 
-Earlier this year I stopped playing Counter-Strike: Global Offensive. The [frame rate](https://en.m.wikipedia.org/wiki/Frame_rate) was to slow on my Macbook Pro. Today I found a solution, in this article I'll cover how I managed to get my frame rate up to 200 frames per second.
+Earlier this year I stopped playing Counter-Strike: Global Offensive. The [frame rate](https://en.m.wikipedia.org/wiki/Frame_rate) was to slow on my Macbook Pro. It was no fun. Today I found a solution on how to boost the performance. In this article I'll describe how I managed to get my frame rate up to 200.
 
 First, let me show you my current macOS setup. I'm using a Macbook Pro from 2015 running [macOS Sierra](https://www.apple.com/macos/sierra). I've 16 GB of memory and I'm running the Intel Iris Pro 1536 MB graphics card.
 
