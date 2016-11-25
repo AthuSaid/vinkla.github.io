@@ -18,7 +18,6 @@ After some research I found the launch options below. These options will boost t
 
 > Launch options are commands, that let you tell the game to perform an action when launching it or that let you force a specific setting. For example, you can specify a window height and a width you want the game to start with. Every new launch option starts with a dash, but you can also put console commands in the launch options. These need a plus in front of them (e.g. +exec randomconfigfile) - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=379782151)
 
-
 You can find the launch options if you right-click on the game in the Steam sidebar. Then click on *Properties*. Now, click on the big button which is called *Set Launch Options*. Copy and paste the options from the snippet above.
 
 [![CS:GO launch options](https://cloud.githubusercontent.com/assets/499192/20626159/2bc9e67a-b318-11e6-9c65-b2c448137356.png)](https://cloud.githubusercontent.com/assets/499192/20626159/2bc9e67a-b318-11e6-9c65-b2c448137356.png)
