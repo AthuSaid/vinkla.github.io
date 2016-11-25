@@ -26,7 +26,7 @@ Now start CS:GO and open up the video settings options page. I've set my resolut
 
 [![CS:GO video settings](https://cloud.githubusercontent.com/assets/499192/20625746/91bb0e3a-b315-11e6-805b-23251be07f9b.png)](https://cloud.githubusercontent.com/assets/499192/20625746/91bb0e3a-b315-11e6-805b-23251be07f9b.png)
 
-As you can see in the image below. I managed to up my frame rate to around 200. It jumps between 100 and 200 but it doesn't effect the gameplay.
+As you can see in the image below, in the lower right corner. I managed to up my frame rate to around 200. It jumps between 100 and 200 but it doesn't effect the gameplay.
 
 [![CS:GO fps demo gameplay](https://cloud.githubusercontent.com/assets/499192/20625785/a4225b78-b315-11e6-9ce2-cf16ebb426e4.png)](https://cloud.githubusercontent.com/assets/499192/20625785/a4225b78-b315-11e6-9ce2-cf16ebb426e4.png)
 
