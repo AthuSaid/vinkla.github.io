@@ -50,7 +50,7 @@ Keep a [changelog](http://keepachangelog.com/en).
 
 ### Documentation
 
-Have an extensive `README.md` with documentation.
+Have an extensive `README.md`. The documentation should cover the installation process and usage guide with code examples.
 
 ### .gitattributes
 
