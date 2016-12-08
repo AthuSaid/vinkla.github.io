@@ -2,8 +2,6 @@ language: ruby
 rvm:
   - 2.2.5
 
-sudo: required
+sudo: false
 
-script:
-  - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site
+script: bundle exec jekyll build
