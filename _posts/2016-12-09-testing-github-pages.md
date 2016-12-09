@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing GitHub Pages
-image: https://img.shields.io/travis/vinkla/vinkla.github.io/master.svg?style=flat
+image: https://cloud.githubusercontent.com/assets/499192/21054118/95b6b418-be2c-11e6-9587-20b650fcd00f.jpg
 ---
 
 This site is built with [GitHub Pages](https://pages.github.com). Did you know you can test your GitHub Pages with [Travis](https://travis-ci.org)? In this article I'll describe how to test if your Jekyll site with Travis.
