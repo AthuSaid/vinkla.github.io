@@ -18,10 +18,10 @@ const urls = [
   '/assets/images/ms-touch-icon-144x144-precomposed.png',
 
   'https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/4.1.0/sanitize.min.css',
-  'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/github-gist.min.css',
+  'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github-gist.min.css',
   '/assets/styles/vinkla.css',
 
-  'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js',
   '/assets/scripts/konami.js'
 ];
 
