@@ -24,8 +24,8 @@ If you want to specify a custom locale, you can create a new [service provider](
 
 namespace App\Providers;
 
-use Faker\Factory as FakerFactory;
-use Faker\Generator as FakerGenerator;
+use Faker\Factory;
+use Faker\Generator;
 use Illuminate\Support\ServiceProvider;
 
 /**
@@ -42,7 +42,7 @@ class FakerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->registerFakerGenerator();
+        $this->registerFaker();
     }
 
     /**
@@ -50,10 +50,10 @@ class FakerServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    protected function registerFakerGenerator()
+    protected function registerFaker()
     {
-        $this->app->singleton(FakerGenerator::class, function () {
-            return FakerFactory::create('sv_SE');
+        $this->app->singleton(Generator::class, function () {
+            return Factory::create('sv_SE');
         });
     }
 }
