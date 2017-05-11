@@ -1,7 +1,5 @@
 ---
 ---
-/* eslint-disable no-undef */
-
 'use strict';
 
 const VERSION = 'cache-v{{site.time | replace:" ","" | replace:":","" | replace:"-",""}}';
@@ -17,11 +15,11 @@ const urls = [
   '/assets/images/icon-128x128.png',
   '/assets/images/ms-touch-icon-144x144-precomposed.png',
 
-  'https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/4.1.0/sanitize.min.css',
-  'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/github-gist.min.css',
+  'https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css',
+  'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/github-gist.min.css',
   '/assets/styles/vinkla.css',
 
-  'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js',
   '/assets/scripts/konami.js'
 ];
 
