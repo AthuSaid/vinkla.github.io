@@ -16,10 +16,12 @@ Which will in this case output:
 
 [This demo link will take you to the correct markdown file on GitHub.]({{ site.github.repository_url }}/blob/master/{{ page.path }})
 
+Try clicking the [GitHub corner](http://tholman.com/github-corners) in the upper right corner.
+
+---
+
 You can also add a link to directly edit a certain file. That's done by changing `blob` to `edit`: 
 
-**{{ site.github.repository_url }}/edit/master/{{ page.path }}**
+**&#123;&#123; site.github.repository_url &#125;&#125;/edit/master/&#123;&#123; page.path &#125;&#125;**
 
 That will fork the project when needed, and then open the editor.
-
-You can also try clicking the [GitHub corner](http://tholman.com/github-corners/) in the upper right corner.
