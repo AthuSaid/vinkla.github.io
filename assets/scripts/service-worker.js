@@ -20,7 +20,6 @@ const urls = [
   '/assets/styles/vinkla.css',
 
   'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js',
-  '/assets/scripts/konami.js'
 ];
 
 self.addEventListener('install', event => {
