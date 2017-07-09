@@ -22,7 +22,6 @@
   <link rel="shortcut icon" href="/assets/images/chrome-touch-icon-192x192.png">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github-gist.min.css">
   <link rel="stylesheet" href="/assets/styles/vinkla.css">
 
   <script>
@@ -41,11 +40,8 @@
 
   {{ content }}
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
   <script>
     'use strict';
-
-    hljs.initHighlightingOnLoad();
 
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/assets/scripts/service-worker.js');
