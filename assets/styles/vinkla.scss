@@ -5,6 +5,8 @@ body {
   color: #24292e;
   font-size: 16px;
   line-height: 28px;
+
+  @media (max-width: 768px) { font-size: 15px; }
 }
 
 html, body, main {
@@ -15,6 +17,9 @@ html, body, main {
 main {
   display: flex;
   justify-content: center;
+}
+
+.page--index {
   align-items: center;
 }
 
@@ -34,6 +39,12 @@ a {
   }
 }
 
+.gif {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 article {
   text-align: center;
   width: 96%;
@@ -42,4 +53,8 @@ article {
 img {
   border-radius: 100%;
   max-width: 150px;
+}
+
+footer {
+  margin-bottom: 20px;
 }

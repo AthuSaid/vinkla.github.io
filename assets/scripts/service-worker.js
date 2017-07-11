@@ -17,6 +17,8 @@ const urls = [
 
   'https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css',
   '/assets/styles/vinkla.css',
+
+  'https://giphy.com/static/js/widgets/tv.js',
 ];
 
 self.addEventListener('install', event => {
