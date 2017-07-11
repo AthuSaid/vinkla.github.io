@@ -3,13 +3,19 @@ description: Developer from Sweden. Teching web development at Yrgo. Open-source
 
 author:
   name: Vincent Klaiber
-  picture: https://github.com/vinkla.png
+  picture: https://avatars2.githubusercontent.com/u/499192
   twitter: vinkla
 
 twitter:
   username: vinkla
 
-logo: https://github.com/vinkla.png
+logo: https://avatars2.githubusercontent.com/u/499192
+
+social:
+  links:
+      - https://github.com/vinkla
+      - https://keybase.io/vinkla
+      - https://twitter.com/vinkla
 
 google_site_verification: k1b2WlZeQuK2T7X1vY_9IdacPqNuT56rQCJbNDbg0dI
 
