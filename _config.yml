@@ -1,5 +1,6 @@
 title: Vincent Klaiber
 description: Full stack development teacher at Yrgo. Open-source entusiast at GitHub. Sharing links on Twitter.
+url: https://vinkla.com
 
 author:
   name: Vincent Klaiber
@@ -27,7 +28,7 @@ sass:
   style: compressed
   sass_dir: assets/styles
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-mentions
   - jekyll-redirect-from
