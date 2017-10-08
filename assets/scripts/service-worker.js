@@ -7,6 +7,7 @@ self.addEventListener('install', e => {
     caches.open('vinkla').then(cache => {
       return cache.addAll([
         '/',
+        '/index.html?timestamp=${time}',
         `/robots.txt?timestamp=${time}`,
         `/manifest.json?timestamp=${time}`,
         `/assets/images/icon-128x128.png?timestamp=${time}`,
