@@ -9,16 +9,15 @@ self.addEventListener('install', e => {
         '/',
         `/robots.txt?timestamp=${time}`,
         `/manifest.json?timestamp=${time}`,
-
         `/assets/images/icon-128x128.png?timestamp=${time}`,
         `/assets/images/icon-144x144.png?timestamp=${time}`,
         `/assets/images/icon-152x152.png?timestamp=${time}`,
         `/assets/images/icon-192x192.png?timestamp=${time}`,
         `/assets/images/icon-512x512.png?timestamp=${time}`,
-        `{{ site.logo }}?timestamp=${time}`,
-
-        `https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css?timestamp=${time}`,
         `/assets/styles/vinkla.css?timestamp=${time}`,
+
+        `https://avatars1.githubusercontent.com/u/499192?timestamp=${time}`,
+        `https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css?timestamp=${time}`,
       ]).then(() => self.skipWaiting());
     })
   );
