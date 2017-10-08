@@ -9,10 +9,11 @@ const urls = [
   '/robots.txt',
   '/manifest.json',
 
-  '/assets/images/apple-touch-icon.png',
-  '/assets/images/chrome-touch-icon-192x192.png',
   '/assets/images/icon-128x128.png',
-  '/assets/images/ms-touch-icon-144x144-precomposed.png',
+  '/assets/images/icon-144x144.png',
+  '/assets/images/icon-152x152.png',
+  '/assets/images/icon-192x192.png',
+  '/assets/images/icon-512x512.png',
   '{{ site.logo }}',
 
   'https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css',
