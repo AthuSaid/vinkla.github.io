@@ -1,6 +1,6 @@
 {
   "name": "Vincent Klaiber",
-  "short_name": "Vincent",
+  "short_name": "@vinkla",
   "icons": [{
         "src": "assets/images/icon-128x128.png",
         "sizes": "128x128",
@@ -25,6 +25,5 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#a09df3",
-  "orientation": "portrait"
+  "theme_color": "#a09df3"
 }
