@@ -19,13 +19,9 @@ main {
   justify-content: center;
 }
 
-.page--index {
-  align-items: center;
-}
+.page--index { align-items: center; }
 
-h1 {
-  font-weight: 500;
-}
+h1 { font-weight: 500; }
 
 a {
   color: #a09df3;
@@ -34,9 +30,7 @@ a {
   padding-bottom: 1px;
   transition: border-color 100ms ease;
 
-  &:hover {
-    border-color: #a09df3;
-  }
+  &:hover { border-color: #a09df3; }
 }
 
 .gif {
