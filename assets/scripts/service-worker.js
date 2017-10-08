@@ -17,8 +17,8 @@ self.addEventListener('install', e => {
         `/assets/images/icon-512x512.png?timestamp=${time}`,
         `/assets/styles/vinkla.css?timestamp=${time}`,
 
-        `https://avatars1.githubusercontent.com/u/499192?timestamp=${time}`,
-        `https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css?timestamp=${time}`,
+        //`https://avatars1.githubusercontent.com/u/499192?timestamp=${time}`,
+        //`https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css?timestamp=${time}`,
       ]).then(() => self.skipWaiting());
     })
   );
