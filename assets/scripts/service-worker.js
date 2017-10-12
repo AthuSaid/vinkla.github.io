@@ -1,37 +1,43 @@
+---
+---
 'use strict';
 
-self.addEventListener('install', e => {
-  let time = Date.now();
+const VERSION = 'cache-v{{site.time | replace:" ","" | replace:":","" | replace:"-",""}}';
 
-  e.waitUntil(
-    caches.open('vinkla').then(cache => {
-      return cache.addAll([
-        '/',
-        `/index.html?timestamp=${time}`,
-        `/robots.txt?timestamp=${time}`,
-        `/manifest.json?timestamp=${time}`,
-        `/assets/images/icon-128x128.png?timestamp=${time}`,
-        `/assets/images/icon-144x144.png?timestamp=${time}`,
-        `/assets/images/icon-152x152.png?timestamp=${time}`,
-        `/assets/images/icon-192x192.png?timestamp=${time}`,
-        `/assets/images/icon-512x512.png?timestamp=${time}`,
-        `/assets/styles/vinkla.css?timestamp=${time}`,
+const urls = [
+  '/',
+  `/index.html`,
+  `/robots.txt`,
+  `/manifest.json`,
+  `/assets/images/icon-128x128.png`,
+  `/assets/images/icon-144x144.png`,
+  `/assets/images/icon-152x152.png`,
+  `/assets/images/icon-192x192.png`,
+  `/assets/images/icon-512x512.png`,
+  `/assets/styles/vinkla.css`,
 
-        `https://avatars1.githubusercontent.com/u/499192?timestamp=${time}`,
-        `https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css?timestamp=${time}`,
-      ]).then(() => self.skipWaiting());
-    })
-  );
+  `https://avatars1.githubusercontent.com/u/499192`,
+  `https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css`,
+
+  'https://giphy.com/static/js/widgets/tv.js',
+];
+
+self.addEventListener('install', event => {
+  event.waitUntil(caches.open(VERSION).then(cache => cache.addAll(urls)));
 });
 
-self.addEventListener('activate',  event => {
-  event.waitUntil(self.clients.claim());
+self.addEventListener('activate', event => {
+  event.waitUntil(caches.keys().then(keys => {
+    return Promise.all(keys.map(key => {
+      if (key !== VERSION) {
+        caches.delete(key);
+      }
+    }));
+  }));
 });
 
 self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.match(event.request, {ignoreSearch:true}).then(response => {
-      return response || fetch(event.request);
-    })
+    caches.match(event.request).then(response => response || fetch(event.request))
   );
 });
