@@ -17,9 +17,7 @@ const urls = [
   '{{ site.logo }}',
 
   '/assets/styles/vinkla.css',
-  'https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css',
-
-  'https://giphy.com/static/js/widgets/tv.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css'
 ];
 
 self.addEventListener('install', event => {
