@@ -20,27 +20,26 @@ main {
   align-items: center;
 }
 
-.page--not-found article {
-  z-index: 1;
-
-  h1, p, a {
-    color: #fff;
-
-    &:hover { border-color: #fff; }
-  }
-}
+a { text-decoration: none; }
 
 h1 { font-weight: 500; }
 
-p a,
-small a {
-  border-bottom: 2px solid transparent;
-  color: #6d52f3;
-  padding-bottom: 1px;
-  text-decoration: none;
-  transition: border-color 100ms ease;
+.page--not-found article {
+  z-index: 1;
 
-  &:hover { border-color: #6d52f3; }
+  h1, p, a { color: #fff; }
+}
+
+.page--index {
+  p a,
+  small a {
+    border-bottom: 2px solid transparent;
+    color: #6d52f3;
+    padding-bottom: 1px;
+    transition: border-color 100ms ease;
+
+    &:hover { border-color: #6d52f3; }
+  }
 }
 
 .gif {
