@@ -6,6 +6,7 @@ const VERSION = 'cache-v{{site.time | replace:" ","" | replace:":","" | replace:
 
 const urls = [
   '/',
+  '/404.html',
   '/index.html',
   '/robots.txt',
   '/manifest.json',
