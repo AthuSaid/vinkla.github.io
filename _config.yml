@@ -21,8 +21,6 @@ social:
 
 google_site_verification: k1b2WlZeQuK2T7X1vY_9IdacPqNuT56rQCJbNDbg0dI
 
-permalink: /:year/:title/
-
 exclude: [Gemfile, Gemfile.lock, LICENSE, README.md]
 
 sass:
