@@ -39,16 +39,6 @@
 
   {{ content }}
 
-  <script>
-    'use strict';
-
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js');
-    }
-
-    console.log('GitHub: https://github.com/vinkla');
-    console.log('Medium: https://medium.com/@vinkla');
-    console.log('Twitter: https://twitter.com/vinkla');
-  </script>
+  <script src="/assets/scripts/vinkla.js"></script>
 </body>
 </html>
