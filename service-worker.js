@@ -10,6 +10,7 @@ const urls = [
   '/index.html',
   '/robots.txt',
   '/manifest.json',
+  '/assets/images/favicon.png',
   '/assets/images/icon-128x128.png',
   '/assets/images/icon-144x144.png',
   '/assets/images/icon-152x152.png',
